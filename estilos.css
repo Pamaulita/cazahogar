@@ -1,0 +1,947 @@
+/*FUENTES*/
+
+@font-face {
+    font-family: Europa Grotesk SH;
+    src: url(../fuentes/EuropaGroteskSH-XLig.otf);
+}
+
+@font-face {
+    font-family: Europa Grotesk;
+    src: url(../fuentes/EuropaGroteskSH-Reg.otf);
+}
+
+h2 {
+    font-family: "Europa Grotesk SH";
+    font-size: 70px;
+    margin-bottom: 40px;
+    padding-left: 180px;
+  
+  }
+
+
+/* NAVBAR */
+
+.nav-item {
+    font-family: "Europa Grotesk";
+    font-size: 28px;
+    margin: 5px;
+    color: black;
+
+}
+
+
+/* IMAGEN PRINCIPAL */
+
+.imagenportada {
+    background-image: url("images/encuentro.png");
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    }
+
+
+/*H1*/
+
+.container h1 {
+    font-family: "Europa Grotesk SH";
+    font-size: 90px;
+    text-align: right;
+    width: 50%;
+    float: right;
+    margin-top: 80px;
+
+}
+
+/*CAJA CARDS*/
+
+.cajagrande {
+    background-color: #EAE0DE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cajagrande,
+h3 {
+    font-family: "Europa Grotesk SH";
+    font-size: 35px;
+    padding: 20px;
+
+}
+
+.cajagrande p {
+    font-family: "Europa Grotesk SH";
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+
+}
+
+
+.contenedorcasa {
+    left: 50px;
+    top: 20px;
+    display: inline-block;
+    font-family: "Europa Grotesk SH";
+    font-size: 22px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 3.64678px 3.64678px rgba(0, 0, 0, 0.25);
+    width: 30%;
+    height: 500px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    margin: 20px;
+    transform: scale(1.1)translateY(-60);
+
+}
+
+.contenedorubicacion {
+    left: 50px;
+    top: 20px;
+    display: inline-block;
+    font-family: "Europa Grotesk SH";
+    font-size: 22px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 3.64678px 3.64678px rgba(0, 0, 0, 0.25);
+    width: 30%;
+    height: 500px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    margin: 20px;
+    transform: scale(1.1)translateY(-60);
+    
+
+}
+
+.contenedorbusqueda {
+    left: 50px;
+    top: 20px;
+    display: inline-block;
+    font-family: "Europa Grotesk SH";
+    font-size: 22px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 3.64678px 3.64678px rgba(0, 0, 0, 0.25);
+    width: 30%;
+    height: 500px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    margin: 20px;
+    
+}
+
+.contenedorcasa:hover {
+    transform: scale(1.0)translateY(-10px); 
+    
+    }
+
+
+.contenedorubicacion:hover {
+    transform: scale(1.0)translateY(-10px); 
+    
+    }
+
+.contenedorbusqueda:hover {
+transform: scale(1.0)translateY(-10px); 
+
+}
+
+/*CAJA NOTA INDEX*/
+
+.cajarecomendado {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    width: 90%;
+
+}
+
+.textorecomendado h2 {
+    font-family: "Europa Grotesk SH";
+    font-size: 70px;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 180px;
+    color: black;
+
+}
+
+.textorecomendado {
+    height: 600px;
+    margin-bottom: 30px;
+}
+
+.textorecomendado p {
+    top: 20px;
+    display: inline-block;
+    font-family: "Europa Grotesk SH";
+    font-size: 22px;
+    text-align: left;
+    padding-left: 260px;
+    padding-top: 50px;
+    width: 80%;
+
+}
+
+/*BOTON WSP*/
+
+.botonWhatsApp img {
+    width: 70px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+}
+
+/*PRESENTACION*/
+
+.cajapresentacion {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+    height: 1000px;
+    padding-top: 80px;
+
+
+}
+
+.presentacion {
+    width: 40%;
+    height: 400px;
+    display: inline-block;
+
+}
+
+
+.presentacion h2 {
+    padding-left: 90px;
+    font-family: "Europa Grotesk SH";
+    font-size: 70px;
+
+}
+
+.presentacion p {
+    font-family: "Europa Grotesk SH";
+    font-size: 20px;
+    display: inline-block;
+    padding-left: 150px;
+    padding-right: 30px;
+    padding-top: 30px;
+
+}
+
+.imagencaro {
+    display: inline-block;
+
+}
+
+
+
+/*FOOTER*/
+
+.cajafooter {
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-areas:
+        "logofooter footernav footercontacto footermail"
+        "legales legales legales legales";
+    font-family: "Europa Grotesk SH";
+    background-color: #EAE0DE;
+
+}
+
+.logofooter {
+    margin-left: 20px;
+    grid-area: logofooter;
+
+}
+
+
+.footernav a {
+    grid-area: footernav;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 22px;
+    margin: 3px;
+}
+
+.footernav li {
+    grid-area: footernav;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.footercontacto {
+    grid-area: footercontacto;
+    margin: 10px;
+}
+
+.footermail {
+    grid-area: footermail;
+    color: black;
+    font-size: 20px;
+    font-family: "Europa Grotesk SH";
+
+}
+
+.footermail input {
+    font-family: "Europa Grotesk SH";
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+/* BOTONES */
+
+
+.boton input:hover {
+    display: inline-block;
+    font-family: "Europa Grotesk SH";
+    font-size: 20px;
+    padding: 10px;
+    background-color: black;
+    /*color botón*/
+    color: #ffffff;
+    /*color texto*/
+    text-decoration: none;
+    /*decoración texto*/
+    margin: 10px;
+    border-radius: 10px;
+    color: orange;
+
+}
+
+.legales {
+    border-top: 1px black solid;
+    grid-area: legales;
+    font-family: "Europa Grotesk SH";
+    padding: 20px;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    background-color: #EAE0DE;
+
+}
+
+/* CAJA TIPS */
+
+.cajaprincipaltips {
+    border: 1px black solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 250px;
+}
+
+.textocajaprinc h2 {
+    font-family: "Europa Grotesk SH";
+    font-size: 70px;
+    text-align: left;
+    padding: 110px;
+    color: black;
+
+}
+
+
+
+.textocajaprinc p {
+    width: 60%;
+    font-family: "Europa Grotesk SH";
+    font-size: 30px;
+    margin: 30px;
+    padding-left: 200px;
+
+}
+
+
+.casarustica {
+    position: relative;
+    z-index: 1;
+    margin-top: -40px;
+
+}
+
+/* CONTENEDOR DOS TIPS */
+
+.cajagrandetips {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 800px;
+}
+
+.contenedortipsuno {
+    border: 1px black solid;
+    width: 22%;
+    height: 600px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    margin: 20px;
+}
+
+.contenedortipsuno h3 {
+    font-family: "Europa Grotesk SH";
+    font-size: 40px;
+    padding: 30px;
+}
+
+.contenedortipsuno p {
+    font-family: "Europa Grotesk SH";
+    font-size: 22px;
+    padding: 40px;
+}
+
+.contenedortipsdos {
+    border: 1px black solid;
+    width: 22%;
+    height: 600px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    margin: 20px;
+}
+
+.contenedortipsdos h3 {
+    font-family: "Europa Grotesk SH";
+    font-size: 40px;
+    padding: 30px;
+}
+
+.contenedortipsdos p {
+    font-family: "Europa Grotesk SH";
+    font-size: 22px;
+    padding: 40px;
+}
+
+.contenedortipstres {
+    border: 1px black solid;
+    width: 22%;
+    height: 600px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    margin: 20px;
+}
+
+.contenedortipstres h3 {
+    font-family: "Europa Grotesk SH";
+    font-size: 40px;
+    padding: 30px;
+}
+
+.contenedortipstres p {
+    font-family: "Europa Grotesk SH";
+    font-size: 22px;
+    padding: 40px;
+
+}
+
+.imagenmas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.contenedortipsuno:hover {
+    transform: scale(1.0)translateY(-10px); 
+        
+    }
+
+
+.contenedortipsdos:hover {
+    transform: scale(1.0)translateY(-10px); 
+        }
+
+.contenedortipstres:hover {
+transform: scale(1.0)translateY(-10px); 
+}
+
+
+
+/* CAJA PROP 1 */
+
+.cajapropgrande {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+    padding-top: 40px;
+}
+
+.textopropuno {
+    border: 1px black solid;
+    text-align: left;
+    color: black;
+    height: 450px;
+    padding-left: 550px;
+    position: relative;
+    top: -500px;
+}
+
+.textopropuno h4 {
+    font-family: "Europa Grotesk SH";
+    font-size: 30px;
+    padding: 40px;
+}
+
+.textopropuno p {
+    font-family: "Europa Grotesk SH";
+    font-size: 25px;
+    text-align: left;
+    color: black;
+    width: 40%;
+    padding-left: 40px;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+.imagenpropuno {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    left: 20px;
+}
+
+.cajaiconos {
+    display: inline-block;
+    width: 20%;
+    padding-left: 60px;
+    border-left: 1px black solid;
+}
+
+.cajaiconos p {
+    font-size: 20px;
+}
+
+/* CAJA PROP 2*/
+
+.textopropdos {
+    border: 1px black solid;
+    text-align: left;
+    color: black;
+    height: 400px;
+    padding-left: 550px;
+    position: relative;
+    top: -450px;
+}
+
+.textopropdos h4 {
+    font-family: "Europa Grotesk SH";
+    font-size: 30px;
+    padding: 40px;
+}
+
+.textopropdos p {
+    font-family: "Europa Grotesk SH";
+    border-left: 1 px black;
+    font-size: 25px;
+    text-align: left;
+    color: black;
+    width: 40%;
+    padding-left: 40px;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+.imagenpropdos {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    left: 20px;
+    top: -150px;
+}
+
+/* FORMULARIO CONTACTO */
+
+.cajacontacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+    height: 1200px;
+    
+}
+
+.cajacontacto h2 {
+    font-family: "Europa Grotesk SH";
+    font-size: 50px;
+    margin-bottom: 40px;
+
+}
+
+.formulario {
+    font-family: "Europa Grotesk SH";
+    font-size: 20px;
+    margin: 40px;
+    padding-left: 350px;
+    width: 40%;
+    
+    }
+
+.imagencaricatura {
+    width: 40%;
+    padding-right: 300px;
+    padding-top: 150px;
+
+}
+
+
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 1280px) {
+
+
+    .container h1 {
+        font-size: 75px;
+    }
+
+    .imagenportada {
+        height: 70vh;
+    }
+
+    .contenedorcasa {
+        width: 33%;
+        height: 600px;
+        font-size: 20px;
+        padding-bottom: 30px;
+
+    }
+
+    .contenedorubicacion {
+        width: 33%;
+        height: 600px;
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+    .contenedorbusqueda {
+        width: 33%;
+        height: 600px;
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+
+
+    .textorecomendado h2 {
+        font-size: 50px;
+        padding-right: 140px;
+        text-align: right;
+
+
+    }
+
+
+    .textorecomendado p {
+        font-size: 30px;
+        padding: 0%;
+        text-align: right;
+
+    }
+
+
+    .presentacion h2 {
+        font-size: 60px;
+
+
+    }
+
+}
+
+
+@media (max-width: 1024px) {
+
+    .container h1 {
+        font-size: 80px;
+        width: 40%;
+    }
+
+    .cajagrande {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+
+    .contenedorcasa {
+        width: 90%;
+        height: 400px;
+        font-size: 15px;
+
+    }
+
+    .contenedorubicacion {
+        width: 90%;
+        height: 400px;
+        font-size: 15px;
+
+
+    }
+
+    .contenedorbusqueda {
+        width: 90%;
+        height: 400px;
+        font-size: 15px;
+        padding: 20px;
+
+    }
+
+    .cajarecomendado {
+        width: 90%;
+        height: 450px;
+
+    }
+
+    .mesahome {
+        display: none;
+    }
+
+
+    .textorecomendado h2 {
+        font-size: 35px;
+        text-align: right;
+        margin: 10px;
+        padding-left: 20px;
+
+    }
+
+    .textorecomendado p {
+        font-size: 25px;
+        height: 100px;
+        padding-left: 80px;
+    }
+
+    .cajafooter {
+        display: grid;
+        grid-template-areas:
+            "logofooter footercontacto"
+            "footernav footermail"
+            "legales legales";
+    }
+
+    .logofooter {
+        width: 180px;
+        padding-top: 30px;
+
+    }
+
+    .footernav a {
+        font-size: 25px;
+        padding-left: 50px;
+    }
+
+    .iconos {
+        height: 70px;
+    }
+
+
+    .botonWhatsApp img {
+        display: none;
+    }
+
+    .cajapresentacion {
+        height: 600px;
+        width: 900px;
+        padding-top: 30px;
+        padding-left: 90px;
+
+    }
+
+    .presentacion h2 {
+        font-family: "Europa Grotesk SH";
+        font-size: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .presentacion p {
+        font-family: "Europa Grotesk SH";
+        font-size: 15px;
+        display: inline-block;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;
+
+    }
+
+
+    .imagenca {
+        width: 70%;
+
+    }
+
+}
+
+
+@media (max-width: 812px) {
+
+    .logo {
+        height: 35px;
+    }
+
+    .container h1 {
+        font-size: 35px;
+    }
+
+    .imagenportada {
+        height: 50vh;
+    }
+
+
+    .contenedorcasa {
+        height: 200px;
+        font-size: 10px;
+
+    }
+
+    .contenedorubicacion {
+        height: 200px;
+        font-size: 10px;
+
+    }
+
+    .contenedorbusqueda {
+        height: 200px;
+        font-size: 20px;
+
+
+    }
+
+    .contenedorcasa h3 {
+        font-size: 22px;
+
+
+    }
+
+    .contenedorubicacion h3 {
+        font-size: 22px;
+
+    }
+
+    .contenedorbusqueda h3 {
+        font-size: 22px;
+
+    }
+
+
+    .contenedorcasa p {
+        display: none;
+
+
+    }
+
+    .contenedorubicacion p {
+        display: none;
+    }
+
+    .contenedorbusqueda p {
+        display: none;
+    }
+
+
+    .iconoscards {
+        height: 40px;
+
+    }
+
+    .cajarecomendado {
+
+        height: 450px;
+    }
+
+
+
+    .textorecomendado h2 {
+        font-size: 25px;
+
+
+    }
+
+    .textorecomendado p {
+        font-size: 13px;
+
+    }
+
+
+    .cajafooter {
+        padding-top: 40px;
+        display: grid;
+        grid-template-areas:
+            "logofooter footercontacto"
+            "legales legales";
+    }
+
+    .logofooter {
+        width: 100px;
+    }
+
+    .iconos {
+        height: 40px;
+    }
+
+    .footernav li {
+        display: none;
+    }
+
+
+    .footercontacto {
+        grid-area: footercontacto;
+        margin: 10px;
+    }
+
+    .footermail {
+        display: none;
+
+    }
+
+    .cajapresentacion {
+        height: 500px;
+        width: 800px;
+
+    }
+
+    .presentacion h2 {
+        font-size: 20px;
+
+    }
+
+    .presentacion p {
+        font-size: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;
+
+    }
+
+
+
+
+}
