@@ -30,7 +30,6 @@ h2 {
 }
 
 .nav-link:hover {
-
     font-weight: bold;
 
 }
@@ -214,15 +213,15 @@ h3 {
     display: flex;
     flex-direction: row;
     margin: auto;
-    justify-content: space-evenly;
-    height: 1000px;
-    padding-top: 80px;
-
+    width: 60%;
+    height: 900px;
+    padding-top: 40px;
+gap: 40px;
 
 }
 
 .presentacion {
-    width: 40%;
+    width: 30%;
     height: 400px;
     display: inline-block;
 
@@ -230,7 +229,7 @@ h3 {
 
 
 .presentacion h2 {
-    padding-left: 90px;
+    padding-left: 50px;
     font-family: "Europa Grotesk SH";
     font-size: 70px;
 
@@ -240,14 +239,16 @@ h3 {
     font-family: "Europa Grotesk SH";
     font-size: 20px;
     display: inline-block;
-    padding-left: 150px;
+    padding-left: 40px;
     padding-right: 30px;
     padding-top: 30px;
 
 }
 
-.imagencaro {
+.imagencaro img{
     display: inline-block;
+    object-fit: cover;
+
 
 }
 
@@ -688,18 +689,44 @@ textarea:focus {
 
 
     .textorecomendado p {
-        font-size: 30px;
+        
         padding: 0%;
         text-align: right;
 
     }
 
 
-    .presentacion h2 {
-        font-size: 60px;
 
-
+    .presentacion {
+        width: 60%;
+        height: 400px;
+        display: inline-block;
+    
     }
+    
+    
+    .presentacion h2 {
+        padding-left: 30px;
+        font-family: "Europa Grotesk SH";
+        font-size: 70px;
+    
+    }
+    
+    .presentacion p {
+        font-family: "Europa Grotesk SH";
+        font-size: 20px;
+        display: inline-block;
+        padding-left: 40px;
+        padding-right: 30px;
+        padding-top: 30px;
+    
+    }
+    
+
+
+
+
+
 
 }
 
@@ -819,11 +846,7 @@ textarea:focus {
 
     }
 
-
-    .imagenca {
-        width: 70%;
-
-    }
+   
 
 }
 
@@ -950,6 +973,8 @@ textarea:focus {
     }
 
     .cajapresentacion {
+        display: flex;
+    flex-direction: column;
         height: 500px;
         width: 800px;
 
