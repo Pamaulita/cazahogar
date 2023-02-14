@@ -15,8 +15,8 @@ h2 {
     font-size: 70px;
     margin-bottom: 40px;
     padding-left: 180px;
-  
-  }
+
+}
 
 
 /* NAVBAR */
@@ -37,7 +37,7 @@ h2 {
     background-size: cover;
     width: 100%;
     height: 90vh;
-    }
+}
 
 
 /*H1*/
@@ -115,7 +115,7 @@ h3 {
     padding-bottom: 40px;
     margin: 20px;
     transform: scale(1.1)translateY(-60);
-    
+
 
 }
 
@@ -135,22 +135,22 @@ h3 {
     padding-top: 25px;
     padding-bottom: 40px;
     margin: 20px;
-    
+
 }
 
 .contenedorcasa:hover {
-    transform: scale(1.0)translateY(-10px); 
-    
-    }
+    transform: scale(1.0)translateY(-10px);
+
+}
 
 
 .contenedorubicacion:hover {
-    transform: scale(1.0)translateY(-10px); 
-    
-    }
+    transform: scale(1.0)translateY(-10px);
+
+}
 
 .contenedorbusqueda:hover {
-transform: scale(1.0)translateY(-10px); 
+    transform: scale(1.0)translateY(-10px);
 
 }
 
@@ -324,7 +324,7 @@ transform: scale(1.0)translateY(-10px);
     /*decoración texto*/
     margin: 10px;
     border-radius: 10px;
-    color: orange;
+    color: #EAE0DE;
 
 }
 
@@ -466,20 +466,21 @@ transform: scale(1.0)translateY(-10px);
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
+
 .contenedortipsuno:hover {
-    transform: scale(1.0)translateY(-10px); 
-        
-    }
+    transform: scale(1.0)translateY(-10px);
+
+}
 
 
 .contenedortipsdos:hover {
-    transform: scale(1.0)translateY(-10px); 
-        }
+    transform: scale(1.0)translateY(-10px);
+}
 
 .contenedortipstres:hover {
-transform: scale(1.0)translateY(-10px); 
+    transform: scale(1.0)translateY(-10px);
 }
 
 
@@ -539,6 +540,13 @@ transform: scale(1.0)translateY(-10px);
     font-size: 20px;
 }
 
+
+.iconos:hover {
+    transform: scale(0.9)translateY(-8px);
+}
+
+
+
 /* CAJA PROP 2*/
 
 .textopropdos {
@@ -585,7 +593,7 @@ transform: scale(1.0)translateY(-10px);
     justify-content: space-around;
     text-align: left;
     height: 1200px;
-    
+
 }
 
 .cajacontacto h2 {
@@ -601,8 +609,21 @@ transform: scale(1.0)translateY(-10px);
     margin: 40px;
     padding-left: 350px;
     width: 40%;
-    
-    }
+
+}
+
+input:focus {
+    outline: none !important;
+    border-color: #000000;
+    box-shadow: 0 0 15px #635e5d;
+}
+
+textarea:focus {
+    outline: none !important;
+    border-color: #000000;
+    box-shadow: 0 0 15px #635e5d;
+}
+
 
 .imagencaricatura {
     width: 40%;
