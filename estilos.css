@@ -21,11 +21,17 @@ h2 {
 
 /* NAVBAR */
 
-.nav-item {
+.nav-link {
     font-family: "Europa Grotesk";
     font-size: 28px;
     margin: 5px;
     color: black;
+    font-family: "Europa Grotesk SH";
+}
+
+.nav-link:hover {
+
+    font-weight: bold;
 
 }
 
