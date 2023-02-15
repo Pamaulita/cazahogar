@@ -163,26 +163,25 @@ h3 {
 
 .cajarecomendado {
     margin-top: 50px;
+    margin-inline: 40px;
     display: flex;
     flex-direction: row;
-    height: 80vh;
+    height: 700px;
     width: 90%;
-
-}
-
-.textorecomendado h2 {
-    font-family: "Europa Grotesk SH";
-    font-size: 70px;
-    text-align: left;
-    padding-top: 60px;
-    padding-left: 180px;
-    color: black;
-
+    gap: 40px;
 }
 
 .textorecomendado {
     height: 600px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.textorecomendado h2 {
+    font-family: "Europa Grotesk SH";
+    font-size: 60px;
+    text-align: right;
+    padding-top: 30px;
+    color: black;
 }
 
 .textorecomendado p {
@@ -190,10 +189,8 @@ h3 {
     display: inline-block;
     font-family: "Europa Grotesk SH";
     font-size: 22px;
-    text-align: left;
-    padding-left: 260px;
+    text-align: right;
     padding-top: 50px;
-    width: 80%;
 
 }
 
@@ -216,7 +213,7 @@ h3 {
     width: 60%;
     height: 900px;
     padding-top: 40px;
-gap: 40px;
+    gap: 40px;
 
 }
 
@@ -245,7 +242,7 @@ gap: 40px;
 
 }
 
-.imagencaro img{
+.imagencaro img {
     display: inline-block;
     object-fit: cover;
 
@@ -677,22 +674,15 @@ textarea:focus {
         padding-bottom: 30px;
     }
 
-
-
     .textorecomendado h2 {
         font-size: 50px;
-        padding-right: 140px;
         text-align: right;
-
 
     }
 
-
     .textorecomendado p {
-        
         padding: 0%;
         text-align: right;
-
     }
 
 
@@ -701,17 +691,17 @@ textarea:focus {
         width: 60%;
         height: 400px;
         display: inline-block;
-    
+
     }
-    
-    
+
+
     .presentacion h2 {
         padding-left: 30px;
         font-family: "Europa Grotesk SH";
         font-size: 70px;
-    
+
     }
-    
+
     .presentacion p {
         font-family: "Europa Grotesk SH";
         font-size: 20px;
@@ -719,9 +709,9 @@ textarea:focus {
         padding-left: 40px;
         padding-right: 30px;
         padding-top: 30px;
-    
+
     }
-    
+
 
 
 
@@ -771,7 +761,6 @@ textarea:focus {
     .cajarecomendado {
         width: 90%;
         height: 450px;
-
     }
 
     .mesahome {
@@ -846,7 +835,7 @@ textarea:focus {
 
     }
 
-   
+
 
 }
 
@@ -923,23 +912,17 @@ textarea:focus {
     }
 
     .cajarecomendado {
-
         height: 450px;
     }
 
-
-
     .textorecomendado h2 {
-        font-size: 25px;
-
+        font-size: 35px;
 
     }
 
     .textorecomendado p {
-        font-size: 13px;
-
+ font-size: 18px;
     }
-
 
     .cajafooter {
         padding-top: 40px;
@@ -974,7 +957,7 @@ textarea:focus {
 
     .cajapresentacion {
         display: flex;
-    flex-direction: column;
+        flex-direction: column;
         height: 500px;
         width: 800px;
 
