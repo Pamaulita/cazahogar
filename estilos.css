@@ -671,7 +671,6 @@ textarea:focus {
     }
 
 
-
     .presentacion {
         width: 60%;
         height: 400px;
@@ -787,12 +786,14 @@ textarea:focus {
         display: none;
     }
 
+
+    
     .cajapresentacion {
         display: flex;
         flex-direction: column;
         justify-content: center;
         height: 800px;
-        width: 80%;
+        width: 70%;
         padding-left: 20px;
         padding-bottom: 60px;
         column-gap: 10px;
@@ -821,10 +822,8 @@ textarea:focus {
         font-size: 18px;
         margin-inline: 10px;
         height: 200px;
-        width: 700px;
+        width: 500px;
         
-
-
     }
 
     .imagenca {
@@ -832,8 +831,8 @@ textarea:focus {
         padding-top: 0px;
         padding-bottom: 10px;
 
-
     }
+
 
 
 }
@@ -954,7 +953,7 @@ textarea:focus {
     }
 
     .cajapresentacion {
-        
+        width: 350px;
         height: 900px;
         column-gap: 10px;
        
@@ -963,7 +962,7 @@ textarea:focus {
 
     .presentacion {
         
-        width: 90%;
+        width: 60%;
     }
 
     .presentacion h2 {
@@ -974,8 +973,8 @@ textarea:focus {
 
     .presentacion p {
         font-size: 15px;
-        height: 250px;
-        width: 50%;
+        height: 300px;
+        width: 300px ;
 
 
     }
@@ -986,6 +985,8 @@ textarea:focus {
         margin-bottom: 50px;
 
     }
+
+
 
 
 
