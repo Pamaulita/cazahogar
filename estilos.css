@@ -209,7 +209,7 @@ h3 {
     display: flex;
     flex-direction: row;
     margin: auto;
-    width: 80%;
+    width: 90%;
     height: 1000px;
     padding-top: 40px;
     gap: 50px;
@@ -791,9 +791,11 @@ textarea:focus {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 900px;
-       
+        height: 800px;
+        width: 80%;
         padding-left: 20px;
+        padding-bottom: 60px;
+        column-gap: 10px;
 
     }
 
@@ -818,7 +820,8 @@ textarea:focus {
     .presentacion p {
         font-size: 18px;
         margin-inline: 10px;
-        height: 800px;
+        height: 200px;
+        width: 700px;
         
 
 
@@ -954,7 +957,7 @@ textarea:focus {
         
         height: 900px;
         column-gap: 10px;
-        width: 1000px;
+       
 
     }
 
@@ -971,8 +974,8 @@ textarea:focus {
 
     .presentacion p {
         font-size: 15px;
-                height: 250px;
-        width: 30%;
+        height: 250px;
+        width: 50%;
 
 
     }
