@@ -1,12 +1,12 @@
 /*FUENTES*/
 
 @font-face {
-    font-family: Europa Grotesk SH;
+    font-family: Europa Grotesk SH !important;
     src: url(../fuentes/EuropaGroteskSH-XLig.otf);
 }
 
 @font-face {
-    font-family: Europa Grotesk;
+    font-family: Europa Grotesk !important;
     src: url(../fuentes/EuropaGroteskSH-Reg.otf);
 }
 
