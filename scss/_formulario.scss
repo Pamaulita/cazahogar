@@ -1,0 +1,31 @@
+/* FORMULARIO */
+
+.formulario {
+    font-family: $font-family_1;
+    font-size: 20px;
+    margin: 40px;
+    padding-left: 350px;
+    width: 40%;
+}
+
+input {
+    &:focus {
+        outline: none;
+        border-color: $border-color_1;
+        box-shadow: 0 0 15px #635e5d;
+    }
+}
+
+textarea {
+    &:focus {
+        outline: none;
+        border-color: $border-color_1;
+        box-shadow: 0 0 15px #635e5d;
+    }
+}
+
+.imagencaricatura {
+    width: 40%;
+    padding-right: 300px;
+    padding-top: 150px;
+}

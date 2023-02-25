@@ -1,0 +1,33 @@
+/* RECOMENDADO */
+
+.cajarecomendado {
+    margin-top: 50px;
+    margin-inline: 40px;
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    width: 90%;
+    gap: 40px;
+}
+
+.textorecomendado {
+    height: 600px;
+    margin-bottom: 50px;
+
+    h2 {
+        font-family: $font-family_1;
+        font-size: 60px;
+        text-align: right;
+        padding-top: 30px;
+        color: $color_1;
+    }
+
+    p {
+        top: 20px;
+        display: inline-block;
+        font-family: $font-family_1;
+        font-size: 22px;
+        text-align: right;
+        padding-top: 50px;
+    }
+}

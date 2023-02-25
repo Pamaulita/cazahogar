@@ -1,0 +1,28 @@
+/* PRESENTACION */
+
+.cajapresentacion {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 90%;
+    height: 1000px;
+    padding-top: 40px;
+    gap: 50px;
+}
+
+.presentacion {
+    width: 50%;
+    margin-bottom: 50px;
+
+    h2 {
+        font-family: $font-family_1;
+        font-size: 60px;
+        padding-top: 30px;
+    }
+
+    p {
+        font-family: $font-family_1;
+        font-size: 25px;
+        display: inline-block;
+    }
+}
