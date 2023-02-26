@@ -62,7 +62,7 @@
     }
 
 
-   
+    .textocajaprinc {
         h2 {
             font-size: 40px;
             padding: 70px;
@@ -72,8 +72,9 @@
             font-size: 20px;
             padding-left: 180px;
         }
-    
+    }
 }
+
 
 
 @media (max-width: 1024px) {
@@ -199,16 +200,22 @@
 
     .textocajaprinc {
         h2 {
-            font-size: 50px;
-            padding: 60px;
+            font-size: 40px;
+            padding: 40px;
 
         }
 
         p {
             font-size: 20px;
-            padding-left: 150px;
+            padding-left: 130px;
         }
     }
+
+    .casarustica {
+        height: 70%;
+        margin-top: -20px;
+    }
+
 
 }
 
