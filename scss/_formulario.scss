@@ -1,31 +1,54 @@
 /* FORMULARIO */
+.cajacontacto {
+    height: 700px;
 
-.formulario {
-    font-family: $font-family_1;
-    font-size: 20px;
-    margin: 40px;
-    padding-left: 350px;
-    width: 40%;
-}
-
-input {
-    &:focus {
-        outline: none;
+    #contacto {
+        font-family: $font-family_1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         border-color: $border-color_1;
-        box-shadow: 0 0 15px #635e5d;
-    }
-}
 
-textarea {
-    &:focus {
-        outline: none;
-        border-color: $border-color_1;
-        box-shadow: 0 0 15px #635e5d;
+        form {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 60vw;
+        }
     }
-}
 
-.imagencaricatura {
-    width: 40%;
-    padding-right: 300px;
-    padding-top: 150px;
+    .campo {
+        display: block;
+        width: 50%;
+        padding: 10px;
+        margin: 10px auto;
+    }
+
+    .botonenviar {
+        width: 200px;
+        margin: auto;
+    }
+
+
+    input {
+        &:focus {
+            outline: none;
+            border-color: $border-color_1;
+            box-shadow: 0 0 15px #635e5d;
+        }
+    }
+
+    textarea {
+        &:focus {
+            outline: none;
+            border-color: $border-color_1;
+            box-shadow: 0 0 15px #635e5d;
+        }
+    }
+
+    .imagencaricatura {
+        width: 30vw;
+        margin: 20px 20px;
+        margin-right: 250px;
+    }
 }

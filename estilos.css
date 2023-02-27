@@ -212,11 +212,11 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 90%;
+  width: 90vw;
   height: 600px;
   margin-top: 50px;
   margin-left: 80px;
-  margin-bottom: 250px;
+  margin-bottom: 180px;
 }
 
 .textocajaprinc h2 {
@@ -227,10 +227,10 @@ h3 {
   color: black;
 }
 .textocajaprinc p {
-  width: 70%;
+  width: 75%;
   font-family: "Europa Grotesk SH";
   font-size: 25px;
-  padding-left: 200px;
+  margin-left: 90px;
 }
 
 .casarustica {
@@ -244,22 +244,22 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  height: 800px;
+  height: 900px;
 }
 
 .contenedortipsuno {
   border: 1px black solid;
-  width: 22%;
-  height: 600px;
+  width: 25%;
+  height: 700px;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 25px;
-  padding-bottom: 40px;
-  margin: 20px;
+  padding-bottom: 30px;
+  margin: 10px;
 }
 .contenedortipsuno h3 {
   font-family: "Europa Grotesk SH";
-  font-size: 40px;
+  font-size: 38px;
   padding: 30px;
 }
 .contenedortipsuno p {
@@ -273,17 +273,17 @@ h3 {
 
 .contenedortipsdos {
   border: 1px black solid;
-  width: 22%;
-  height: 600px;
+  width: 25%;
+  height: 700px;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 25px;
-  padding-bottom: 40px;
-  margin: 20px;
+  padding-bottom: 30px;
+  margin: 10px;
 }
 .contenedortipsdos h3 {
   font-family: "Europa Grotesk SH";
-  font-size: 40px;
+  font-size: 38px;
   padding: 30px;
 }
 .contenedortipsdos p {
@@ -297,17 +297,17 @@ h3 {
 
 .contenedortipstres {
   border: 1px black solid;
-  width: 22%;
-  height: 600px;
+  width: 25%;
+  height: 700px;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 25px;
-  padding-bottom: 40px;
-  margin: 20px;
+  padding-bottom: 30px;
+  margin: 10px;
 }
 .contenedortipstres h3 {
   font-family: "Europa Grotesk SH";
-  font-size: 40px;
+  font-size: 38px;
   padding: 30px;
 }
 .contenedortipstres p {
@@ -546,7 +546,42 @@ h3 {
   }
   .textocajaprinc p {
     font-size: 20px;
-    padding-left: 180px;
+  }
+  .casarustica {
+    margin-top: -20px;
+  }
+  .contenedortipsuno h3 {
+    font-size: 30px;
+    padding: 20px;
+  }
+  .contenedortipsuno {
+    width: 33%;
+    height: 800px;
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+  .contenedortipsdos h3 {
+    font-size: 28px;
+    padding: 20px;
+  }
+  .contenedortipsdos {
+    width: 33%;
+    height: 800px;
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+  .contenedortipstres h3 {
+    font-size: 30px;
+    padding: 20px;
+  }
+  .contenedortipstres {
+    width: 33%;
+    height: 800px;
+    font-size: 1px;
+    padding-bottom: 10px;
+  }
+  .imagenmas {
+    height: 100px;
   }
 }
 @media (max-width: 1024px) {
@@ -584,7 +619,7 @@ h3 {
     display: none;
   }
   .textorecomendado h2 {
-    font-size: 35px;
+    font-size: 30px;
     text-align: right;
     margin: 10px;
     padding-left: 20px;
@@ -643,17 +678,75 @@ h3 {
     padding-top: 0px;
     padding-bottom: 10px;
   }
+  .cajaprincipaltips {
+    width: 90vw;
+    height: 350px;
+    margin-left: 40px;
+    margin-bottom: 80px;
+  }
   .textocajaprinc h2 {
     font-size: 40px;
-    padding: 40px;
+    padding: 40px 10px 40px 40px;
+    margin: 0;
   }
   .textocajaprinc p {
     font-size: 20px;
-    padding-left: 130px;
+    padding-left: 50px;
+    margin: 0;
   }
   .casarustica {
-    height: 70%;
-    margin-top: -20px;
+    height: 380px;
+    margin-top: -10px;
+  }
+  .cajagrandetips {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    height: 1500px;
+  }
+  .cajagrandetips .contenedortipsuno {
+    width: 90%;
+    height: 450px;
+    font-size: 15px;
+  }
+  .cajagrandetips .contenedortipsuno h3 {
+    font-size: 30px;
+    padding: 10px;
+  }
+  .cajagrandetips .contenedortipsdos {
+    width: 90%;
+    height: 450px;
+    font-size: 15px;
+  }
+  .cajagrandetips .contenedortipsdos h3 {
+    font-size: 25px;
+    padding: 20px;
+  }
+  .cajagrandetips .contenedortipstres {
+    width: 90%;
+    height: 450px;
+    font-size: 15px;
+    padding: 20px;
+  }
+  .cajagrandetips .contenedortipstres h3 {
+    font-size: 30px;
+    padding: 10px;
+  }
+  #contacto {
+    flex-direction: column;
+    border: none;
+  }
+  .imagencaricatura {
+    display: none;
+  }
+  .campo {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #contacto form {
+    width: 90vw;
   }
 }
 @media (max-width: 812px) {
@@ -750,6 +843,74 @@ h3 {
     width: 50%;
     margin-bottom: 50px;
   }
+  .cajaprincipaltips {
+    width: 80vw;
+    height: 200px;
+    margin-left: 40px;
+  }
+  .textocajaprinc h2 {
+    font-size: 20px;
+    padding: 50px 10px 40px 30px;
+    margin: 0;
+  }
+  .textocajaprinc p {
+    display: none;
+  }
+  .casarustica {
+    height: 230px;
+    margin-top: -10;
+  }
+  .contenedortipsuno p {
+    font-size: 13px;
+  }
+  .contenedortipsdos p {
+    font-size: 13px;
+  }
+  .contenedortipstres p {
+    font-size: 13px;
+  }
+}
+/* FORMULARIO */
+.cajacontacto {
+  height: 700px;
+}
+.cajacontacto #contacto {
+  font-family: "Europa Grotesk SH";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: #000000;
+}
+.cajacontacto #contacto form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 60vw;
+}
+.cajacontacto .campo {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  margin: 10px auto;
+}
+.cajacontacto .botonenviar {
+  width: 200px;
+  margin: auto;
+}
+.cajacontacto input:focus {
+  outline: none;
+  border-color: #000000;
+  box-shadow: 0 0 15px #635e5d;
+}
+.cajacontacto textarea:focus {
+  outline: none;
+  border-color: #000000;
+  box-shadow: 0 0 15px #635e5d;
+}
+.cajacontacto .imagencaricatura {
+  width: 30vw;
+  margin: 20px 20px;
+  margin-right: 250px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

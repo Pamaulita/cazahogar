@@ -70,12 +70,54 @@
 
         p {
             font-size: 20px;
-            padding-left: 180px;
         }
     }
+
+    .casarustica {
+        margin-top: -20px;
+    }
+
+    .contenedortipsuno h3 {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .contenedortipsuno {
+        width: 33%;
+        height: 800px;
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+    .contenedortipsdos h3 {
+        font-size: 28px;
+        padding: 20px;
+    }
+
+    .contenedortipsdos {
+        width: 33%;
+        height: 800px;
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+    .contenedortipstres h3 {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .contenedortipstres {
+        width: 33%;
+        height: 800px;
+        font-size: 1px;
+        padding-bottom: 10px;
+    }
+
+    .imagenmas {
+        height: 100px;
+    }
+
 }
-
-
 
 @media (max-width: 1024px) {
     .container {
@@ -122,7 +164,7 @@
 
     .textorecomendado {
         h2 {
-            font-size: 35px;
+            font-size: 30px;
             text-align: right;
             margin: 10px;
             padding-left: 20px;
@@ -198,22 +240,94 @@
         padding-bottom: 10px;
     }
 
+    .cajaprincipaltips {
+        width: 90vw;
+        height: 350px;
+        margin-left: 40px;
+        margin-bottom: 80px;
+    }
+
     .textocajaprinc {
         h2 {
             font-size: 40px;
-            padding: 40px;
+            padding: 40px 10px 40px 40px;
+            margin: 0;
 
         }
 
         p {
             font-size: 20px;
-            padding-left: 130px;
+            padding-left: 50px;
+            margin: 0;
         }
     }
 
     .casarustica {
-        height: 70%;
-        margin-top: -20px;
+        height: 380px;
+        margin-top: -10px;
+    }
+
+
+    .cajagrandetips {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+        height: 1500px;
+
+        .contenedortipsuno {
+            width: 90%;
+            height: 450px;
+            font-size: 15px;
+        }
+
+        .contenedortipsuno h3 {
+            font-size: 30px;
+            padding: 10px;
+        }
+
+        .contenedortipsdos {
+            width: 90%;
+            height: 450px;
+            font-size: 15px;
+        }
+
+        .contenedortipsdos h3 {
+            font-size: 25px;
+            padding: 20px;
+        }
+
+        .contenedortipstres {
+            width: 90%;
+            height: 450px;
+            font-size: 15px;
+            padding: 20px;
+        }
+
+        .contenedortipstres h3 {
+            font-size: 30px;
+            padding: 10px;
+        }
+
+    }
+
+    #contacto {
+        flex-direction: column;
+        border: none;
+    }
+
+    .imagencaricatura {
+        display: none;
+    }
+
+    .campo {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #contacto form {
+        width: 90vw;
     }
 
 
@@ -345,4 +459,41 @@
         width: 50%;
         margin-bottom: 50px;
     }
+
+    .cajaprincipaltips {
+        width: 80vw;
+        height: 200px;
+        margin-left: 40px;
+    }
+
+    .textocajaprinc {
+        h2 {
+            font-size: 20px;
+            padding: 50px 10px 40px 30px;
+            margin: 0;
+
+        }
+
+        p {
+            display: none;
+        }
+    }
+
+    .casarustica {
+        height: 230px;
+        margin-top: -10;
+    }
+
+    .contenedortipsuno p {
+        font-size: 13px;
+    }
+
+    .contenedortipsdos p {
+        font-size: 13px;
+    }
+
+    .contenedortipstres p {
+        font-size: 13px;
+    }
+
 }

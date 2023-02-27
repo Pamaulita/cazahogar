@@ -59,44 +59,28 @@
     </header>
 
     <!--FORMULARIO CONTACTO-->
-
+   
     <div class="cajacontacto">
-
-        <div class="formulario">
-
-            <h2>Contacto</h2>
-
-            <form>
-                <label for="">Nombre</label>
-                <input type="Nombre" placeholder="Ingrese su Nombre">
-                <br><br>
-
-                <label for="">Apellido</label>
-                <input type="Apellido" placeholder="Ingrese su Apellido">
-                <br><br>
-
-                <label for="">E-mail</label>
-                <input type="E-mail" placeholder="Ingrese su E-mail">
-                <br><br>
-
-                <textarea cols="50" rows="20" placeholder="Escribí tu consulta"></textarea>
-                <br><br>
-
-                <div class="boton">
-
-                    <input type="reset">
-                    <input type="submit">
-
+        <section id="contacto">
+            <form class="formulario">
+                <h3>Realice su consulta</h3>
+                
+                <div class="contenedorInput">
+                    <input class="campo" type="text" placeholder="Nombre">
+                    <input class="campo" type="text" placeholder="Apellido">
+                    <input class="campo" type="email" placeholder="Ingrese su E-mail">
                 </div>
-
+                <textarea class="campo" name="mensaje" id="mensaje" cols="30" rows="10"
+                    placeholder="Ingrese su mensaje"></textarea>
+                <input class="botoncito botonenviar" type="submit">
             </form>
-        </div>
-
-        <div class="imagencaricatura">
-
-            <img src="./images/caricaturacaro.png" alt="caricatura caro">
-        </div>
+            <div class="imagencaricatura">
+               
+                <img class="imagencaricatura" src="./images/caricaturacaro.png" alt="caricatura caro">
+            </div>
+        </section>
     </div>
+    
 
     <!--FOOTER-->
 
