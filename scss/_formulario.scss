@@ -10,35 +10,54 @@
         border-color: $border-color_1;
 
         form {
+            font-size: 15px;
             display: flex;
             flex-direction: column;
             text-align: center;
-            width: 60vw;
+            width: 50vw;
         }
     }
 
-    .campo {
+    .inputform {
         display: block;
         width: 50%;
         padding: 10px;
-        margin: 10px auto;
-    }
+        margin: 15px auto;
+        border-radius: 10px;
 
-    .botonenviar {
-        width: 200px;
-        margin: auto;
-    }
-
-
-    input {
         &:focus {
             outline: none;
             border-color: $border-color_1;
             box-shadow: 0 0 15px #635e5d;
         }
+
     }
 
-    textarea {
+    .botonenviar {
+        width: 250px;
+        margin: auto;
+        border-radius: 10px;
+        width: 50%;
+
+        &:hover {
+            background-color: $background-color_3;
+            color: $color_2;
+            text-decoration: none;
+            border-radius: 10px;
+            color: $color_3;
+        }
+
+    }
+
+
+    .textarea {
+        display: block;
+        width: 50%;
+        padding: 10px;
+        margin: 15px auto;
+        border-radius: 10px;
+        border-color: $border-color_1;
+
         &:focus {
             outline: none;
             border-color: $border-color_1;

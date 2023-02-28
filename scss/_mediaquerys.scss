@@ -45,8 +45,8 @@
     }
 
     .presentacion {
-        width: 60%;
-        height: 400px;
+
+        height: 600px;
         display: inline-block;
 
         h2 {
@@ -56,7 +56,7 @@
 
         p {
             font-family: $font-family_1;
-            font-size: 20px;
+            width: 85%;
             display: inline-block;
         }
     }
@@ -117,9 +117,94 @@
         height: 100px;
     }
 
+    .marco {
+        width: 80vw;
+        flex-direction: column;
+        align-content: center;
+        margin-bottom: 80px;
+        height: 600px;
+
+        .imagenprop {
+            height: 1400px;
+
+        }
+
+        .textopropuno {
+            color: $color_1;
+            margin: auto;
+            display: inline-block;
+            width: 80%;
+            height: 300px;
+
+            h4 {
+                margin-top: 20px;
+                font-size: 25px;
+
+            }
+
+            p {
+
+                font-size: 15px;
+
+            }
+
+        }
+
+        .cajaiconos {
+            flex-direction: row;
+            justify-content: center;
+            border-left: 0;
+            border-top: 1px black solid;
+            padding-top: 20px;
+            padding-left: 0;
+
+        }
+
+
+        .iconouno {
+            margin-right: 20px;
+            margin-left: 20px;
+            height: 25px;
+
+
+        }
+
+
+        .iconodos {
+            margin-right: 20px;
+            margin-left: 20px;
+            height: 25px;
+
+        }
+
+        .iconotres {
+            margin-right: 20px;
+            margin-left: 20px;
+            height: 25px;
+
+        }
+
+
+        .imagencasa {
+            margin-left: 260px;
+            height: 400px;
+
+
+        }
+
+        .imagencasados {
+            margin-left: 200px;
+            width: 500px;
+
+        }
+
+    }
+
+
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px){
+
     .container {
         h1 {
             font-size: 80px;
@@ -171,7 +256,7 @@
         }
 
         p {
-            font-size: 25px;
+
             height: 100px;
             padding-left: 80px;
         }
@@ -209,16 +294,17 @@
         flex-direction: column;
         justify-content: center;
         height: 800px;
-        width: 70%;
+        width: 60%;
         padding-left: 20px;
         padding-bottom: 60px;
         column-gap: 10px;
     }
 
     .presentacion {
-        width: 50%;
+        width: 60%;
         height: 400px;
         display: inline-block;
+
 
         h2 {
             font-size: 30px;
@@ -230,13 +316,13 @@
             font-size: 18px;
             margin-inline: 10px;
             height: 200px;
-            width: 500px;
+            width: 600px;
         }
     }
 
     .imagenca {
         height: 350px;
-        padding-top: 0px;
+        padding-top: 40px;
         padding-bottom: 10px;
     }
 
@@ -330,10 +416,94 @@
         width: 90vw;
     }
 
+    .marco {
+        width: 80vw;
+        flex-direction: column;
+        align-content: center;
+        margin-bottom: 80px;
+        height: 600px;
+
+        .imagenprop {
+            height: 1400px;
+
+        }
+
+        .textopropuno {
+            color: $color_1;
+            margin: auto;
+            display: inline-block;
+            width: 80%;
+            height: 300px;
+
+            h4 {
+                margin-top: 20px;
+                font-size: 25px;
+
+            }
+
+            p {
+
+                font-size: 15px;
+
+            }
+
+        }
+
+        .cajaiconos {
+            flex-direction: row;
+            justify-content: center;
+            border-left: 0;
+            border-top: 1px black solid;
+            padding-top: 20px;
+            padding-left: 0;
+
+        }
+
+
+        .iconouno {
+            margin-right: 20px;
+            margin-left: 20px;
+            height: 25px;
+
+
+        }
+
+
+        .iconodos {
+            margin-right: 20px;
+            margin-left: 20px;
+            height: 25px;
+
+        }
+
+        .iconotres {
+            margin-right: 20px;
+            margin-left: 20px;
+            height: 25px;
+
+        }
+
+
+        .imagencasa {
+            margin-left: 80px;
+            height: 400px;
+
+
+        }
+
+        .imagencasados {
+            margin-left: 70px;
+            width: 400px;
+
+        }
+
+    }
+
 
 }
 
-@media (max-width: 812px) {
+
+@media (max-width: 900px) and (min-width: 300px) {
     .logo {
         height: 35px;
     }
@@ -443,9 +613,10 @@
     .presentacion {
         width: 60%;
 
+
         h2 {
             font-size: 25px;
-            padding-top: 0;
+            padding: 0;
         }
 
         p {
@@ -495,5 +666,28 @@
     .contenedortipstres p {
         font-size: 13px;
     }
+
+h2{
+    font-size: 30px;
+}
+
+
+    .marco {
+        
+        .imagencasa {
+            margin-left: 0px;
+            height: 250px;
+
+
+        }
+
+        .imagencasados {
+            margin-left: 0px;
+            width: 250px ;
+
+        }
+
+    }
+
 
 }
