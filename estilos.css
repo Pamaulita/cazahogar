@@ -852,7 +852,6 @@ h2 {
   }
   .marco .imagencasa {
     margin-left: 80px;
-    height: 500px;
   }
   .marco .imagencasados {
     margin-left: 70px;
@@ -981,6 +980,9 @@ h2 {
   }
   h2 {
     font-size: 30px;
+  }
+  .marco {
+    height: 480px;
   }
   .marco .imagencasa {
     margin-left: 0px;
