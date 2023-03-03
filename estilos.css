@@ -852,11 +852,11 @@ h2 {
   }
   .marco .imagencasa {
     margin-left: 80px;
-    height: 400px;
+    height: 500px;
   }
   .marco .imagencasados {
     margin-left: 70px;
-    width: 400px;
+    width: 500px;
   }
 }
 @media (max-width: 900px) and (min-width: 300px) {
