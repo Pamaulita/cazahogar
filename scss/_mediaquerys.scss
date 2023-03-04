@@ -203,7 +203,7 @@
 
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
 
     .container {
         h1 {
@@ -485,15 +485,15 @@
 
 
         .imagencasa {
-            margin-left: 80px;
-            
+            margin-left: 180px;
+
 
 
         }
 
         .imagencasados {
-            margin-left: 70px;
-            width: 500px;
+            margin-left: 50px;
+            width: 70%;
 
         }
 
@@ -503,7 +503,7 @@
 }
 
 
-@media (max-width: 900px) and (min-width: 300px) {
+@media (max-width: 1020px) and (min-width: 300px) {
     .logo {
         height: 35px;
     }
@@ -667,24 +667,26 @@
         font-size: 13px;
     }
 
-h2{
-    font-size: 30px;
-}
+    h2 {
+        font-size: 30px;
+    }
 
 
     .marco {
-         height: 480px;
+        height: 480px;
 
         .imagencasa {
             margin-left: 0px;
-            height: 50%;
-
+            height: 60%;
+            padding-left: 70px;
 
         }
 
         .imagencasados {
             margin-left: 0px;
-            width: 65% ;
+            width: 65%;
+            padding-left: 50px;
+
 
         }
 

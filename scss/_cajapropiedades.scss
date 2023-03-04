@@ -29,23 +29,24 @@
         }
 
     }
+
     .imagencasa {
         position: absolute;
         display: inline-block;
         z-index: 1;
         margin-top: -70px;
         height: 550px;
-        
-      
+
+
     }
 
 
 }
 
 @mixin imagenprop {
-      display: inline-block;
-      width: 800px;
-   
+    display: inline-block;
+    width: 800px;
+
 }
 
 
@@ -102,8 +103,8 @@ h2 {
     display: inline-block;
     z-index: 1;
     margin-top: -55px;
-    width: 750px;
-  
+    width: 45%;
+
 }
 
 
@@ -116,5 +117,3 @@ h2 {
 .marco {
     @include marco;
 }
-
-

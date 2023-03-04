@@ -380,7 +380,7 @@ h2 {
   display: inline-block;
   z-index: 1;
   margin-top: -55px;
-  width: 750px;
+  width: 45%;
 }
 
 .cajaiconos {
@@ -851,14 +851,14 @@ h2 {
     height: 25px;
   }
   .marco .imagencasa {
-    margin-left: 80px;
+    margin-left: 180px;
   }
   .marco .imagencasados {
-    margin-left: 70px;
-    width: 500px;
+    margin-left: 50px;
+    width: 70%;
   }
 }
-@media (max-width: 900px) and (min-width: 300px) {
+@media (max-width: 1020px) and (min-width: 300px) {
   .logo {
     height: 35px;
   }
@@ -986,11 +986,13 @@ h2 {
   }
   .marco .imagencasa {
     margin-left: 0px;
-    height: 50%;
+    height: 60%;
+    padding-left: 70px;
   }
   .marco .imagencasados {
     margin-left: 0px;
     width: 65%;
+    padding-left: 50px;
   }
 }
 /* FORMULARIO */
