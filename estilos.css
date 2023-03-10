@@ -369,18 +369,29 @@ h2 {
   margin-top: -70px;
   height: 550px;
 }
+.marco .imagencasa:hover {
+  transition: 0.5s;
+  transform: scale(1.08);
+  filter: brightness(115%);
+}
 
 .imagenprop {
   display: inline-block;
-  width: 800px;
+  width: 600px;
 }
 
 .imagencasados {
   position: absolute;
   display: inline-block;
   z-index: 1;
-  margin-top: -55px;
-  width: 55%;
+  margin-top: -70px;
+  height: 550px;
+}
+
+.imagencasados:hover {
+  transition: 0.5s;
+  transform: scale(1.08);
+  filter: brightness(115%);
 }
 
 .cajaiconos {
@@ -426,6 +437,11 @@ h2 {
   z-index: 1;
   margin-top: -70px;
   height: 550px;
+}
+.marco .imagencasa:hover {
+  transition: 0.5s;
+  transform: scale(1.08);
+  filter: brightness(115%);
 }
 
 /* BOTON WHATSAPP */
@@ -578,7 +594,7 @@ h2 {
   .contenedortipstres {
     width: 33%;
     height: 800px;
-    font-size: 1px;
+    font-size: 15px;
     padding-bottom: 10px;
   }
   .imagenmas {
@@ -636,8 +652,8 @@ h2 {
     height: 400px;
   }
   .marco .imagencasados {
-    margin-left: 200px;
-    width: 500px;
+    margin-left: 260px;
+    height: 400px;
   }
 }
 @media (max-width: 1024px) {
@@ -819,6 +835,7 @@ h2 {
     display: inline-block;
     width: 80%;
     height: 300px;
+    text-align: center;
   }
   .marco .textopropuno h4 {
     margin-top: 20px;
@@ -852,10 +869,11 @@ h2 {
   }
   .marco .imagencasa {
     margin-left: 180px;
+    text-align: center;
   }
   .marco .imagencasados {
-    margin-left: 50px;
-    width: 65%;
+    margin-left: 180px;
+    text-align: center;
   }
 }
 @media (max-width: 1020px) and (min-width: 300px) {
@@ -984,17 +1002,14 @@ h2 {
   }
   .marco {
     height: 490px;
-    text-align: center;
   }
   .marco .imagencasa {
-    margin-left: 0px;
     height: 50%;
-    text-align: center;
+    margin-left: 60px;
   }
   .marco .imagencasados {
-    margin-left: 0px;
-    width: 70%;
-    text-align: center;
+    height: 50%;
+    margin-left: 60px;
   }
 }
 /* FORMULARIO */
@@ -1013,7 +1028,7 @@ h2 {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 50vw;
+  width: 90vw;
 }
 .cajacontacto .inputform {
   display: block;

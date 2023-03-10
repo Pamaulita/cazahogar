@@ -1,5 +1,22 @@
 /* MEDIA QUERYS */
 
+@mixin contenedoresvarios {
+    width: 33%;
+    height: 600px;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+
+@mixin contenedorestipsdos {
+    width: 33%;
+    height: 800px;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+
+
 @media (max-width: 1280px) {
     .container {
         h1 {
@@ -12,24 +29,15 @@
     }
 
     .contenedorcasa {
-        width: 33%;
-        height: 600px;
-        font-size: 20px;
-        padding-bottom: 30px;
+        @include contenedoresvarios;
     }
 
     .contenedorubicacion {
-        width: 33%;
-        height: 600px;
-        font-size: 20px;
-        padding-bottom: 30px;
+        @include contenedoresvarios;
     }
 
     .contenedorbusqueda {
-        width: 33%;
-        height: 600px;
-        font-size: 20px;
-        padding-bottom: 30px;
+        @include contenedoresvarios;
     }
 
     .textorecomendado {
@@ -83,10 +91,7 @@
     }
 
     .contenedortipsuno {
-        width: 33%;
-        height: 800px;
-        font-size: 15px;
-        padding-bottom: 10px;
+        @include contenedorestipsdos;
     }
 
     .contenedortipsdos h3 {
@@ -95,10 +100,7 @@
     }
 
     .contenedortipsdos {
-        width: 33%;
-        height: 800px;
-        font-size: 15px;
-        padding-bottom: 10px;
+        @include contenedorestipsdos;
     }
 
     .contenedortipstres h3 {
@@ -107,10 +109,7 @@
     }
 
     .contenedortipstres {
-        width: 33%;
-        height: 800px;
-        font-size: 1px;
-        padding-bottom: 10px;
+        @include contenedorestipsdos;
     }
 
     .imagenmas {
@@ -193,9 +192,8 @@
         }
 
         .imagencasados {
-            margin-left: 200px;
-            width: 500px;
-
+            margin-left: 260px;
+            height: 400px;
         }
 
     }
@@ -434,6 +432,7 @@
             display: inline-block;
             width: 80%;
             height: 300px;
+            text-align: center;
 
             h4 {
                 margin-top: 20px;
@@ -486,15 +485,15 @@
 
         .imagencasa {
             margin-left: 180px;
+            text-align: center;
 
 
 
         }
 
         .imagencasados {
-            margin-left: 50px;
-            width: 65%;
-
+            margin-left: 180px;
+            text-align: center;
         }
 
     }
@@ -675,26 +674,20 @@
 
 
     .marco {
-        height: 490px;
-        text-align: center;
-        
+        height: 490px; 
 
         .imagencasa {
-            margin-left: 0px;
             height: 50%;
-            text-align: center;
+            margin-left: 60px;
+          
 
         }
 
         .imagencasados {
-            margin-left: 0px;
-            width: 70%;
-            text-align: center;
-
+            height: 50%;
+            margin-left: 60px;
+            
 
         }
-
     }
-
-
 }

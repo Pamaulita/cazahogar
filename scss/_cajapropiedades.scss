@@ -36,21 +36,23 @@
         z-index: 1;
         margin-top: -70px;
         height: 550px;
-
+        
 
     }
 
+    .imagencasa:hover {
+      transition: 0.5s;
+      transform: scale(1.08);
+      filter:brightness(115%);
+    }
 
 }
 
 @mixin imagenprop {
     display: inline-block;
-    width: 800px;
-
+    width: 600px;
+    
 }
-
-
-
 
 
 @mixin cajaiconos {
@@ -102,10 +104,16 @@ h2 {
     position: absolute;
     display: inline-block;
     z-index: 1;
-    margin-top: -55px;
-    width: 55%;
-
+    margin-top: -70px;
+    height: 550px;
 }
+
+
+.imagencasados:hover {
+    transition: 0.5s;
+    transform: scale(1.08);
+    filter:brightness(115%);
+  }
 
 
 .cajaiconos {
