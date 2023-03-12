@@ -213,30 +213,32 @@ h3 {
   flex-direction: row;
   justify-content: center;
   width: 90vw;
-  height: 600px;
-  margin-top: 50px;
+  height: 500px;
   margin-left: 80px;
-  margin-bottom: 180px;
+  margin-bottom: 100px;
+  margin-top: 50px;
 }
 
+.textocajaprinc {
+  width: 600px;
+  margin: 80px;
+}
 .textocajaprinc h2 {
   font-family: "Europa Grotesk SH";
   font-size: 62px;
   text-align: left;
-  padding: 90px 60px 40px 90px;
-  color: black;
+  padding: 0;
 }
 .textocajaprinc p {
-  width: 75%;
   font-family: "Europa Grotesk SH";
   font-size: 25px;
-  margin-left: 90px;
 }
 
 .casarustica {
   position: relative;
   z-index: 1;
   margin-top: -40px;
+  width: 50vh;
 }
 
 .cajagrandetips {
@@ -328,8 +330,9 @@ h3 {
 /* CAJA PROPIEDADES */
 h2 {
   font-size: 50px;
-  padding-left: 150px;
+  padding-left: 100px;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .cajapropgrande {
@@ -377,7 +380,7 @@ h2 {
 
 .imagenprop {
   display: inline-block;
-  width: 600px;
+  width: 650px;
 }
 
 .imagencasados {
@@ -397,7 +400,7 @@ h2 {
 .cajaiconos {
   display: flex;
   flex-direction: column;
-  padding-left: 80px;
+  padding-left: 50px;
   border-left: 1px black solid;
   top: 0;
   bottom: 0;
@@ -458,24 +461,28 @@ h2 {
   flex-direction: row;
   margin: auto;
   width: 90%;
-  height: 1000px;
+  height: 900px;
   padding-top: 40px;
-  gap: 60px;
+  gap: 40px;
 }
-
-.presentacion {
+.cajapresentacion .presentacion {
   width: 50%;
   margin-bottom: 50px;
 }
-.presentacion h2 {
+.cajapresentacion .presentacion h2 {
   font-family: "Europa Grotesk SH";
   font-size: 60px;
   padding-top: 30px;
   padding-left: 50px;
+  display: inline-block;
 }
-.presentacion p {
+.cajapresentacion .presentacion p {
   font-family: "Europa Grotesk SH";
-  font-size: 25px;
+  font-size: 22px;
+  display: inline-block;
+}
+.cajapresentacion .imagenca {
+  height: 60%;
   display: inline-block;
 }
 
@@ -511,9 +518,9 @@ h2 {
 }
 
 /* MEDIA QUERYS */
-@media (max-width: 1280px) {
+@media (max-width: 1280px) and (min-width: 1024px) {
   .container h1 {
-    font-size: 75px;
+    font-size: 70px;
   }
   .imagenportada {
     height: 70vh;
@@ -539,27 +546,37 @@ h2 {
   .textorecomendado h2 {
     font-size: 50px;
     text-align: right;
+    margin: 30px;
   }
   .textorecomendado p {
-    padding: 0%;
+    font-size: 22px;
     text-align: right;
+    margin: 30px;
   }
-  .presentacion {
-    height: 600px;
+  .cajapresentacion {
+    display: flex;
+    flex-direction: row;
+  }
+  .cajapresentacion .presentacion {
+    height: 90vh;
     display: inline-block;
   }
-  .presentacion h2 {
+  .cajapresentacion .presentacion h2 {
     padding-top: 0px;
     font-size: 40px;
+    padding-left: 0;
   }
-  .presentacion p {
+  .cajapresentacion .presentacion p {
     font-family: "Europa Grotesk SH";
     width: 85%;
     display: inline-block;
+    font-size: 23px;
+  }
+  .cajapresentacion .presentacion .imagencaro {
+    height: 60%;
   }
   .textocajaprinc h2 {
     font-size: 40px;
-    padding: 70px;
   }
   .textocajaprinc p {
     font-size: 20px;
@@ -600,65 +617,25 @@ h2 {
   .imagenmas {
     height: 100px;
   }
-  .marco {
-    width: 80vw;
-    flex-direction: column;
-    align-content: center;
-    margin-bottom: 80px;
-    height: 600px;
-  }
   .marco .imagenprop {
-    height: 1400px;
-  }
-  .marco .textopropuno {
-    color: black;
-    margin: auto;
-    display: inline-block;
-    width: 80%;
-    height: 300px;
-  }
-  .marco .textopropuno h4 {
-    margin-top: 20px;
-    font-size: 25px;
-  }
-  .marco .textopropuno p {
-    font-size: 15px;
-  }
-  .marco .cajaiconos {
-    flex-direction: row;
-    justify-content: center;
-    border-left: 0;
-    border-top: 1px black solid;
-    padding-top: 20px;
-    padding-left: 0;
-  }
-  .marco .iconouno {
-    margin-right: 20px;
-    margin-left: 20px;
-    height: 25px;
-  }
-  .marco .iconodos {
-    margin-right: 20px;
-    margin-left: 20px;
-    height: 25px;
-  }
-  .marco .iconotres {
-    margin-right: 20px;
-    margin-left: 20px;
-    height: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
   }
   .marco .imagencasa {
-    margin-left: 260px;
-    height: 400px;
+    height: 55vh;
+    margin-left: 20px;
+    justify-content: center;
   }
   .marco .imagencasados {
-    margin-left: 260px;
-    height: 400px;
+    height: 55vh;
+    margin-left: 20px;
+    justify-content: center;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1023px) and (min-width: 600px) {
   .container h1 {
-    font-size: 80px;
+    font-size: 65px;
     width: 40%;
   }
   .cajagrande {
@@ -687,18 +664,19 @@ h2 {
     width: 90%;
     height: 450px;
   }
-  .mesahome {
-    display: none;
-  }
   .textorecomendado h2 {
     font-size: 30px;
     text-align: right;
-    margin: 10px;
-    padding-left: 20px;
+    margin: 20px;
+    padding-top: 0px;
   }
   .textorecomendado p {
+    font-size: 14px;
     height: 100px;
-    padding-left: 80px;
+    margin: 20px;
+  }
+  .mesahome {
+    height: 90%;
   }
   .cajafooter {
     display: grid;
@@ -722,51 +700,53 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 800px;
-    width: 60%;
-    padding-left: 20px;
-    padding-bottom: 60px;
-    column-gap: 10px;
+    margin: 80px;
+    column-gap: 20px;
   }
-  .presentacion {
-    width: 60%;
-    height: 400px;
-    display: inline-block;
+  .cajapresentacion .presentacion {
+    width: 80%;
   }
-  .presentacion h2 {
-    font-size: 30px;
-    padding-top: 40px;
-    padding-right: 20px;
+  .cajapresentacion .presentacion h2 {
+    font-size: 40px;
+    padding-top: 0px;
+    padding-left: 0px;
+    justify-content: center;
   }
-  .presentacion p {
+  .cajapresentacion .presentacion p {
     font-size: 18px;
-    margin-inline: 10px;
-    height: 200px;
-    width: 600px;
+    justify-content: center;
   }
-  .imagenca {
-    height: 350px;
-    padding-top: 40px;
-    padding-bottom: 10px;
+  .cajapresentacion .imagencaro {
+    display: flex;
+    justify-content: left;
+  }
+  .cajapresentacion .imagenca {
+    height: 80%;
+    padding-left: -20px;
   }
   .cajaprincipaltips {
     width: 90vw;
-    height: 350px;
+    height: 400px;
     margin-left: 40px;
     margin-bottom: 80px;
   }
-  .textocajaprinc h2 {
-    font-size: 40px;
-    padding: 40px 10px 40px 40px;
-    margin: 0;
+  .cajaprincipaltips .textocajaprinc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70%;
+    margin: 50px;
   }
-  .textocajaprinc p {
-    font-size: 20px;
-    padding-left: 50px;
-    margin: 0;
+  .cajaprincipaltips .textocajaprinc h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .cajaprincipaltips .textocajaprinc p {
+    font-size: 15px;
+    height: 200px;
   }
   .casarustica {
-    height: 380px;
+    width: 35vh;
     margin-top: -10px;
   }
   .cajagrandetips {
@@ -778,7 +758,7 @@ h2 {
   }
   .cajagrandetips .contenedortipsuno {
     width: 90%;
-    height: 450px;
+    height: 420px;
     font-size: 15px;
   }
   .cajagrandetips .contenedortipsuno h3 {
@@ -787,22 +767,25 @@ h2 {
   }
   .cajagrandetips .contenedortipsdos {
     width: 90%;
-    height: 450px;
+    height: 420px;
     font-size: 15px;
   }
   .cajagrandetips .contenedortipsdos h3 {
-    font-size: 25px;
-    padding: 20px;
+    font-size: 30px;
+    padding: 10px;
   }
   .cajagrandetips .contenedortipstres {
     width: 90%;
-    height: 450px;
+    height: 420px;
     font-size: 15px;
-    padding: 20px;
+    padding: 10px;
   }
   .cajagrandetips .contenedortipstres h3 {
     font-size: 30px;
     padding: 10px;
+  }
+  .cajagrandetips .imagenmas {
+    height: 100px;
   }
   #contacto {
     flex-direction: column;
@@ -820,29 +803,36 @@ h2 {
     width: 90vw;
   }
   .marco {
-    width: 80vw;
     flex-direction: column;
     align-content: center;
-    margin-bottom: 80px;
     height: 600px;
   }
   .marco .imagenprop {
-    height: 1400px;
+    height: 600px;
+  }
+  .marco .imagencasa {
+    height: 55%;
+  }
+  .marco .imagenpropdos {
+    height: 600px;
+  }
+  .marco .imagencasados {
+    height: 55%;
   }
   .marco .textopropuno {
     color: black;
     margin: auto;
     display: inline-block;
     width: 80%;
-    height: 300px;
+    height: 400px;
     text-align: center;
   }
   .marco .textopropuno h4 {
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 22px;
   }
   .marco .textopropuno p {
-    font-size: 15px;
+    font-size: 18px;
   }
   .marco .cajaiconos {
     flex-direction: row;
@@ -867,16 +857,8 @@ h2 {
     margin-left: 20px;
     height: 25px;
   }
-  .marco .imagencasa {
-    margin-left: 180px;
-    text-align: center;
-  }
-  .marco .imagencasados {
-    margin-left: 180px;
-    text-align: center;
-  }
 }
-@media (max-width: 1020px) and (min-width: 300px) {
+@media (max-width: 599px) and (min-width: 300px) {
   .logo {
     height: 35px;
   }
@@ -886,37 +868,46 @@ h2 {
   .imagenportada {
     height: 50vh;
   }
-  .contenedorcasa {
+  .cajagrande {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+  }
+  .cajagrande .contenedorcasa {
+    width: 80%;
     height: 200px;
     font-size: 10px;
   }
-  .contenedorcasa h3 {
-    font-size: 22px;
+  .cajagrande .contenedorcasa h3 {
+    font-size: 18px;
   }
-  .contenedorcasa p {
+  .cajagrande .contenedorcasa p {
     display: none;
   }
-  .contenedorubicacion {
+  .cajagrande .contenedorubicacion {
+    width: 80%;
     height: 200px;
     font-size: 10px;
   }
-  .contenedorubicacion h3 {
-    font-size: 22px;
+  .cajagrande .contenedorubicacion h3 {
+    font-size: 18px;
   }
-  .contenedorubicacion p {
+  .cajagrande .contenedorubicacion p {
     display: none;
   }
-  .contenedorbusqueda {
+  .cajagrande .contenedorbusqueda {
+    width: 80%;
     height: 200px;
     font-size: 20px;
   }
-  .contenedorbusqueda h3 {
-    font-size: 22px;
+  .cajagrande .contenedorbusqueda h3 {
+    font-size: 18px;
   }
-  .contenedorbusqueda p {
+  .cajagrande .contenedorbusqueda p {
     display: none;
   }
-  .iconoscards {
+  .cajagrande .iconoscards {
     height: 40px;
   }
   .cajarecomendado {
@@ -926,7 +917,10 @@ h2 {
     font-size: 30px;
   }
   .textorecomendado p {
-    font-size: 18px;
+    font-size: 12px;
+  }
+  .mesahome {
+    display: none;
   }
   .cajafooter {
     padding-top: 40px;
@@ -950,42 +944,84 @@ h2 {
     display: none;
   }
   .cajapresentacion {
-    width: 350px;
-    height: 900px;
-    column-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    gap: 10px;
   }
-  .presentacion {
+  .cajapresentacion .presentacion {
     width: 60%;
+    height: 600px;
   }
-  .presentacion h2 {
-    font-size: 25px;
+  .cajapresentacion .presentacion h2 {
+    font-size: 18px;
     padding: 0;
   }
-  .presentacion p {
-    font-size: 15px;
-    height: 300px;
-    width: 300px;
+  .cajapresentacion .presentacion p {
+    font-size: 12px;
   }
-  .imagencaro {
-    width: 50%;
-    margin-bottom: 50px;
+  .cajapresentacion .imagencaro {
+    display: flex;
+    justify-content: left;
+  }
+  .cajapresentacion .imagenca {
+    height: 40%;
+  }
+  .cajagrandetips {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+    height: 1300px;
+  }
+  .cajagrandetips .contenedortipsuno {
+    width: 90%;
+    height: 450px;
+  }
+  .cajagrandetips .contenedortipsuno h3 {
+    font-size: 25px;
+    padding: 10px;
+  }
+  .cajagrandetips .contenedortipsdos {
+    width: 90%;
+    height: 450px;
+  }
+  .cajagrandetips .contenedortipsdos h3 {
+    font-size: 25px;
+    padding: 20px;
+  }
+  .cajagrandetips .contenedortipstres {
+    width: 90%;
+    height: 450px;
+    font-size: 15px;
+    padding: 20px;
+  }
+  .cajagrandetips .contenedortipstres h3 {
+    font-size: 30px;
+    padding: 10px;
+  }
+  .cajagrandetips .imagenmas {
+    height: 80px;
   }
   .cajaprincipaltips {
     width: 80vw;
     height: 200px;
     margin-left: 40px;
+    margin-bottom: 60px;
+  }
+  .textocajaprinc {
+    display: flex;
+    justify-content: center;
   }
   .textocajaprinc h2 {
-    font-size: 20px;
-    padding: 20px 10px 20px 40px;
-    margin: 0;
+    font-size: 16px;
   }
   .textocajaprinc p {
-    font-size: 10px;
+    display: none;
   }
   .casarustica {
-    height: 230px;
-    margin-top: -10;
+    width: 20vh;
+    margin-top: -10px;
   }
   .contenedortipsuno p {
     font-size: 13px;
@@ -1001,15 +1037,60 @@ h2 {
     padding-left: 40px;
   }
   .marco {
-    height: 490px;
+    flex-direction: column;
+    align-content: center;
+    height: 500px;
+  }
+  .marco .imagenprop {
+    height: 400px;
   }
   .marco .imagencasa {
     height: 50%;
-    margin-left: 60px;
+  }
+  .marco .imagenpropdos {
+    height: 600px;
   }
   .marco .imagencasados {
     height: 50%;
-    margin-left: 60px;
+  }
+  .marco .textopropuno {
+    color: black;
+    margin: auto;
+    display: inline-block;
+    width: 90%;
+    height: 300px;
+    text-align: center;
+  }
+  .marco .textopropuno h4 {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  .marco .textopropuno p {
+    font-size: 12px;
+  }
+  .marco .cajaiconos {
+    flex-direction: row;
+    justify-content: center;
+    border-left: 0;
+    border-top: 1px black solid;
+    padding-top: 20px;
+    padding-left: 0;
+  }
+  .marco .iconouno {
+    height: 20px;
+    margin-right: 15px;
+  }
+  .marco .iconodos {
+    height: 20px;
+    margin-right: 15px;
+  }
+  .marco .iconotres {
+    height: 20px;
+    margin-right: 15px;
+  }
+  .marco p {
+    font-size: 15px;
+    margin-right: 15px;
   }
 }
 /* FORMULARIO */

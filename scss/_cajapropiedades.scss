@@ -36,29 +36,31 @@
         z-index: 1;
         margin-top: -70px;
         height: 550px;
-        
+
 
     }
 
     .imagencasa:hover {
-      transition: 0.5s;
-      transform: scale(1.08);
-      filter:brightness(115%);
+        transition: 0.5s;
+        transform: scale(1.08);
+        filter: brightness(115%);
     }
 
 }
 
+
 @mixin imagenprop {
     display: inline-block;
-    width: 600px;
-    
+    width: 650px;
+
+
 }
 
 
 @mixin cajaiconos {
     display: flex;
     flex-direction: column;
-    padding-left: 80px;
+    padding-left: 50px;
     border-left: 1px black solid;
     top: 0;
     bottom: 0;
@@ -71,14 +73,15 @@
     }
 }
 
-
-
 h2 {
     font-size: 50px;
-    padding-left: 150px;
+    padding-left: 100px;
     padding-top: 50px;
+    padding-bottom: 50px;
 
 }
+
+
 
 
 .cajapropgrande {
@@ -87,7 +90,6 @@ h2 {
     margin: auto;
     width: 90%;
     padding-top: 40px;
-
 
 }
 
@@ -112,8 +114,8 @@ h2 {
 .imagencasados:hover {
     transition: 0.5s;
     transform: scale(1.08);
-    filter:brightness(115%);
-  }
+    filter: brightness(115%);
+}
 
 
 .cajaiconos {
