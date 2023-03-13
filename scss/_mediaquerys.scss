@@ -46,6 +46,7 @@
             text-align: right;
             margin: 30px;
 
+
         }
 
         p {
@@ -60,10 +61,11 @@
     .cajapresentacion {
         display: flex;
         flex-direction: row;
+        gap: 60px;
 
         .presentacion {
-            height: 90vh;
-            display: inline-block;
+            height: 800px;
+
 
             h2 {
                 padding-top: 0px;
@@ -78,9 +80,10 @@
                 font-size: 23px;
             }
 
-            .imagencaro {
-                height: 60%;
-            }
+        }
+
+        .imagencaro {
+            height: 80%;
         }
     }
 
@@ -253,15 +256,14 @@
     .cajapresentacion {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        margin: 80px;
-        column-gap: 20px;
+        align-items: center;
+        padding-top: 40px;
+        gap: 0;
+        height: 1100px;
 
 
         .presentacion {
             width: 80%;
-
-
 
             h2 {
                 font-size: 40px;
@@ -376,14 +378,6 @@
 
     }
 
-    #contacto {
-        flex-direction: column;
-        border: none;
-    }
-
-    .imagencaricatura {
-        display: none;
-    }
 
     .campo {
         width: 100%;
@@ -391,9 +385,6 @@
         padding-right: 0;
     }
 
-    #contacto form {
-        width: 90vw;
-    }
 
     .marco {
         flex-direction: column;
@@ -477,8 +468,8 @@
 
         }
 
-
     }
+
 
 
 }
@@ -554,17 +545,19 @@
     }
 
     .cajarecomendado {
-        height: 450px;
+        height: 350px;
     }
 
     .textorecomendado {
         h2 {
             font-size: 30px;
+            padding: 0;
 
         }
 
         p {
             font-size: 12px;
+            padding: 0;
 
         }
 
@@ -607,12 +600,12 @@
     .cajapresentacion {
         display: flex;
         flex-direction: column;
-        height: 800px;
-        gap: 10px;
+        align-items: center;
+        gap: 0;
 
         .presentacion {
-            width: 60%;
-            height: 600px;
+            height: 300px;
+            width: 70%;
 
             h2 {
                 font-size: 18px;
@@ -625,14 +618,9 @@
 
         }
 
-        .imagencaro {
-            display: flex;
-            justify-content: left;
-        }
-
         .imagenca {
-            height: 40%;
-
+            padding-top: 50px;
+            height: 45%;
 
         }
 
@@ -687,8 +675,6 @@
 
     }
 
-
-
     .cajaprincipaltips {
         width: 80vw;
         height: 200px;
@@ -741,23 +727,18 @@
 
         .imagenprop {
             height: 400px;
-
         }
 
         .imagencasa {
             height: 50%;
-
         }
-
 
         .imagenpropdos {
             height: 600px;
-
         }
 
         .imagencasados {
             height: 50%;
-
         }
 
         .textopropuno {
@@ -771,47 +752,57 @@
             h4 {
                 margin-top: 20px;
                 font-size: 15px;
-
             }
 
             p {
-
                 font-size: 12px;
-
             }
         }
 
-            .cajaiconos {
-                flex-direction: row;
-                justify-content: center;
-                border-left: 0;
-                border-top: 1px black solid;
-                padding-top: 20px;
-                padding-left: 0;
-                
+        .cajaiconos {
+            flex-direction: row;
+            justify-content: center;
+            border-left: 0;
+            border-top: 1px black solid;
+            padding-top: 20px;
+            padding-left: 0;
 
-            }
+        }
 
-            .iconouno{
-                height: 20px;
-                margin-right: 15px;
-            }
+        .iconouno {
+            height: 20px;
+            margin-right: 15px;
+        }
 
-            .iconodos{
-                height: 20px;
-                margin-right: 15px;
-            }
-            .iconotres{
-                height: 20px;
-                margin-right: 15px;
-            }
+        .iconodos {
+            height: 20px;
+            margin-right: 15px;
+        }
 
-            p {
-                font-size: 15px;
-                margin-right: 15px;
-            }
+        .iconotres {
+            height: 20px;
+            margin-right: 15px;
+        }
 
+        p {
+            font-size: 15px;
+            margin-right: 15px;
+        }
 
-        
     }
+
+
+    #contacto {
+        width: 90%;
+        flex-direction: column;
+        text-align: center;
+
+
+        .imagencaricatura {
+            display: none;
+        }
+
+    }
+
+
 }

@@ -1,4 +1,14 @@
 /* PORTADA */
+#visorimagenes {
+  text-align: right;
+}
+
+.blanconegro {
+  color: #FFFFFF;
+  background-color:  #000000;
+}
+
+
 
 h2 {
     font-family: $font-family_1;
@@ -7,7 +17,6 @@ h2 {
 }
 
 .nav-link {
-    font-family: $font-family_2;
     font-size: 28px;
     margin: 5px;
     color: $color_1;
