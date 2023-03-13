@@ -605,13 +605,13 @@ h2 {
     margin-top: -20px;
   }
   .contenedortipsuno h3 {
-    font-size: 30px;
+    font-size: 28px;
     padding: 20px;
   }
   .contenedortipsuno {
     width: 33%;
     height: 800px;
-    font-size: 15px;
+    font-size: 14px;
     padding-bottom: 10px;
   }
   .contenedortipsdos h3 {
@@ -621,17 +621,17 @@ h2 {
   .contenedortipsdos {
     width: 33%;
     height: 800px;
-    font-size: 15px;
+    font-size: 14px;
     padding-bottom: 10px;
   }
   .contenedortipstres h3 {
-    font-size: 30px;
+    font-size: 28px;
     padding: 20px;
   }
   .contenedortipstres {
     width: 33%;
     height: 800px;
-    font-size: 15px;
+    font-size: 14px;
     padding-bottom: 10px;
   }
   .imagenmas {
@@ -769,7 +769,7 @@ h2 {
     height: 200px;
   }
   .casarustica {
-    width: 35vh;
+    width: 40vw;
     margin-top: -10px;
   }
   .cajagrandetips {
@@ -1016,6 +1016,9 @@ h2 {
   .cajagrandetips .imagenmas {
     height: 80px;
   }
+  .cajagrandetips .imagenmas:hover {
+    background-image: url("/images/icononegrochico.png");
+  }
   .cajaprincipaltips {
     width: 80vw;
     height: 200px;
@@ -1028,12 +1031,13 @@ h2 {
   }
   .textocajaprinc h2 {
     font-size: 16px;
+    margin-bottom: 40px;
   }
   .textocajaprinc p {
     display: none;
   }
   .casarustica {
-    width: 20vh;
+    width: 35vw;
     margin-top: -10px;
   }
   .contenedortipsuno p {
@@ -1112,6 +1116,9 @@ h2 {
   }
   #contacto .imagencaricatura {
     display: none;
+  }
+  #contacto .form {
+    width: 95%;
   }
 }
 /* FORMULARIO */
