@@ -144,22 +144,21 @@
         .imagenprop {
             display: flex;
             flex-direction: column;
-            width: 500px;
+
 
         }
 
         .imagencasa {
-            height: 55vh;
+            height: 65vh;
             margin-left: 20px;
-            justify-content: center;
+
 
 
         }
 
         .imagencasados {
-            height: 55vh;
+            height: 65vh;
             margin-left: 20px;
-            justify-content: center;
 
 
         }
@@ -400,6 +399,8 @@
 
         .imagenprop {
             height: 600px;
+            display: flex;
+            justify-content: center;
 
         }
 
@@ -410,6 +411,8 @@
 
 
         .imagenpropdos {
+            display: flex;
+            justify-content: center;
             height: 600px;
 
         }
@@ -738,10 +741,12 @@
 
         .imagenprop {
             height: 400px;
+            padding-left: 60px;
         }
 
         .imagencasa {
             height: 50%;
+            
         }
 
         .imagenpropdos {
@@ -811,8 +816,12 @@
         .imagencaricatura {
             display: none;
         }
-        .form {width: 95%;
+
+        .form {
+            width: 95%;
         }
-}
+    }
+
+
 
 }

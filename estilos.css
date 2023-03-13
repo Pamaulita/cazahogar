@@ -640,17 +640,14 @@ h2 {
   .marco .imagenprop {
     display: flex;
     flex-direction: column;
-    width: 500px;
   }
   .marco .imagencasa {
-    height: 55vh;
+    height: 65vh;
     margin-left: 20px;
-    justify-content: center;
   }
   .marco .imagencasados {
-    height: 55vh;
+    height: 65vh;
     margin-left: 20px;
-    justify-content: center;
   }
 }
 @media (max-width: 1023px) and (min-width: 600px) {
@@ -822,11 +819,15 @@ h2 {
   }
   .marco .imagenprop {
     height: 600px;
+    display: flex;
+    justify-content: center;
   }
   .marco .imagencasa {
     height: 55%;
   }
   .marco .imagenpropdos {
+    display: flex;
+    justify-content: center;
     height: 600px;
   }
   .marco .imagencasados {
@@ -1060,6 +1061,7 @@ h2 {
   }
   .marco .imagenprop {
     height: 400px;
+    padding-left: 60px;
   }
   .marco .imagencasa {
     height: 50%;
