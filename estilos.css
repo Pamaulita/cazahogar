@@ -565,6 +565,8 @@ h2 {
     font-size: 50px;
     text-align: right;
     margin: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .textorecomendado p {
     font-size: 22px;
@@ -687,11 +689,13 @@ h2 {
     text-align: right;
     margin: 10px;
     padding-top: 0px;
+    padding-bottom: 0px;
   }
   .textorecomendado p {
     font-size: 14px;
     height: 100px;
     margin: 10px;
+    padding-top: 0px;
   }
   .mesahome {
     height: 350px;
@@ -924,6 +928,8 @@ h2 {
   }
   .textorecomendado h2 {
     font-size: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .textorecomendado p {
     font-size: 12px;
