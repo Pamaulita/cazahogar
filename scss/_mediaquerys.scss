@@ -741,7 +741,7 @@
 
         .imagenprop {
             height: 400px;
-            padding-left: 60px;
+            padding-left: 50px;
         }
 
         .imagencasa {
@@ -807,8 +807,9 @@
 
     }
 
+
     #contacto {
-        width: 90%;
+        width: 100vw;
         flex-direction: column;
         text-align: center;
 
@@ -817,11 +818,6 @@
             display: none;
         }
 
-        .form {
-            width: 95%;
-        }
     }
-
-
 
 }

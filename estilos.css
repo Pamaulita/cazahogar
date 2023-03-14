@@ -1061,7 +1061,7 @@ h2 {
   }
   .marco .imagenprop {
     height: 400px;
-    padding-left: 60px;
+    padding-left: 50px;
   }
   .marco .imagencasa {
     height: 50%;
@@ -1112,15 +1112,12 @@ h2 {
     margin-right: 15px;
   }
   #contacto {
-    width: 90%;
+    width: 100vw;
     flex-direction: column;
     text-align: center;
   }
   #contacto .imagencaricatura {
     display: none;
-  }
-  #contacto .form {
-    width: 95%;
   }
 }
 /* FORMULARIO */
@@ -1139,7 +1136,7 @@ h2 {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 80vw;
+  width: 90vw;
 }
 .cajacontacto #contacto .inputform {
   display: block;
@@ -1180,8 +1177,8 @@ h2 {
   box-shadow: 0 0 15px #635e5d;
 }
 .cajacontacto .imagencaricatura {
-  width: 60%;
-  margin: 20px 20px;
+  width: 75%;
+  margin: 20px;
   display: flex;
   align-content: center;
 }
